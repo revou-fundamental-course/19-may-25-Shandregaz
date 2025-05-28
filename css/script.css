@@ -10,6 +10,7 @@ body{
     align-items: center;
     padding-top: 20px;
     margin: 0;
+    
 }
 
 main{
@@ -62,4 +63,25 @@ button{
 .rumus-content{
     font-size: 20px;
     font-weight: lighter;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+body {
+    padding: 5px;
+}
+
+.container-konversi {
+    padding: 15px;
+}
+
+input,
+textarea {
+    font-size: 1em;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 10px;
+}
 }

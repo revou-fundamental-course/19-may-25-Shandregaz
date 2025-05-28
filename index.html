@@ -25,22 +25,22 @@
         <form id="konversi-form" class="padding-medium">
             <!--Input Suhu-->
             <div>
-                <label for="input-suhu">Celcius (&deg;C):</label>
-                <input type="number" id="input-suhu" name="suhu">
+                <label for="input-suhu" id="input-label">Celcius (&deg;C):</label>
+                <input type="number" id="input-suhu" name="suhu" placeholder="contoh 25">
             </div>
             <!--Tombol Konversi-->
             <div>
-                <button class="bg-aqua">Konversi</button>
-                <button class="bg-floralwhite">Reset</button>
-                <button class="bg-floralwhite">Reverse</button>
+            <button type="button" id="tombol-konversi" class="bg-aqua">Konversi</button>
+            <button type="button" id="tombol-reset" class="bg-floralwhite">Reset</button>
+            <button type="button" id="tombol-reverse" class="bg-floralwhite">Reverse</button>
             </div>
         </form>
 
         <!--Hasil Konversi-->
         <section class="padding-medium">
             <div>
-                <label for="hasil-suhu">Fahrenheit (&deg;F):</label>
-                <textarea type="number" id="hasil-suhu" name="suhu" readonly></textarea>
+            <label for="hasil-suhu" id="hasil-label">Fahrenheit (°F):</label>
+            <textarea id="hasil-suhu" name="hasil" readonly placeholder="Hasil konversi"></textarea>
             </div>
         </section>
 
